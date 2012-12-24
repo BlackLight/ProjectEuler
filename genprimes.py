@@ -5,9 +5,9 @@ from sys import stdout
 
 print "{ ",
 
-for n in range(2,10**6) :
+for n in range(2,10**6):
 	if is_prime(n) :
-		stdout.write ("'%s': 1, " % (str(n)))
+		stdout.write("'%s': 1, " % (str(n)))
 
 print "}"
 
